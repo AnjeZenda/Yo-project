@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* styles */
+body{
+	background: linear-gradient(90deg, rgba(219, 218, 231, 0.745), rgba(185, 185, 212, 0.745));
+	font-family: 'Roboto', sans-serif;	
+}
+
+h1,h2{
+	font-family: 'PT Serif', serif;
+}
+
+h1{
+	font-size: 64px;
+}
+h2{
+	font-size: 36px;
+}
+
+a, a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+section{
+	padding: 50px 0 30px;
+}
+.container{
+	max-width: 1040px;
+	margin: 0 auto;
+
+}
+
+/* header */
+
+.header{
+	padding-top: 30px;
+	background: url('img/header.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 600px;
+	color: #fff;
+}
+.header-menu{
+	margin: 0 auto;
+	max-width: 595px;
+	margin-bottom: 70px;
+}
+.header-menu__list{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-menu__item{
+	display: block;
+	font-size: 22px;
+	
+}
+.offer{
+	max-width: 550px;
+	margin-left: 90px;
+}
+.offer__title{
+	margin-top: 136px;
+	font-size: 64px;
+	font-weight: 700;
+}
+.offer__text{
+	margin-top: 48px;
+	font-size: 26px;
+	font-weight: 700;
+	font-family: 'PT Serif', serif;
+}
+
+/* about */
+
+.about__title{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.about__wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 75px;	
+}
+.about__cont{
+	max-width: 576px;
+}
+.about__text{
+	text-indent: 4px;
+	margin-bottom: 4px;
+	line-height: 1.4;
+}
+.about__cont{
+	font-size: 20px;
+	font-weight: 400;
+}
+.about__map{
+	display: inline;
+	width: 400px;
+	height: 400px;
+}
+.about__map iframe{
+	width: 400px;
+	height: 400px;
+	border: none;
+}
+
+.sights__title{
+	margin-top: 46px;
+}
+.sights__wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+.sights__cont{
+	margin-top: 100px;
+	font-size: 18px;
+	max-width: 350px;
+}
+.sights__list{
+	width: 600px;
+}
+.sights-card{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.sights-card__title{
+	text-transform: uppercase;
+}
+.sights-card__cont{
+	max-width: 315px;
+}
+.sights-card__text{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 25px;
+}
+.sights__text{
+	text-indent: 4px;
+}
+.footer{
+	background: linear-gradient(90deg, rgba(219, 218, 231, 0.8), rgba(185, 185, 212, 0.8));
+	box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+	padding: 35px 0 20px;
+}
+.footer__wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-w__title{
+	color: #444;
+	font-size: 20px;
+	font-weight: 400;
+}
+.footer__list{
+	margin-top: 35px;
+	margin-left: 20px;
+}
+.footer-w__item{
+	color: #666;
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+}
+.footer-w__item:hover{
+	color: #444;
+}
